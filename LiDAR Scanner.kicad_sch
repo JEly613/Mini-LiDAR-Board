@@ -494,7 +494,311 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -513,7 +817,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -545,7 +849,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -578,7 +882,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -667,8 +971,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -869,7 +1195,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -953,6 +1279,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1083,6 +1427,24 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1753,7 +2115,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND2_Small"
+		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1764,23 +2126,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 5.08 0)
+				(at 1.27 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND2_Small"
-				(at 0 3.175 0)
+			(property "Value" "Crystal_GND24_Small"
+				(at 1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1805,9 +2169,31 @@
 					)
 				)
 			)
-			(property "Description" "Three pin crystal, GND on pin 2, small symbol"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 				(at 0 0 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -10.16 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -12.7 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1838,7 +2224,19 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND2_Small_0_1"
+			(symbol "Crystal_GND24_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 -0.762) (xy -1.27 0.762)
@@ -1887,7 +2285,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND2_Small_1_1"
+			(symbol "Crystal_GND24_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -1909,7 +2307,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.635)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1935,6 +2333,25 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -3050,24 +3467,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "RESV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 96.52 -15.24 180)
 					(length 7.62)
@@ -3195,6 +3594,26 @@
 					)
 				)
 			)
+			(symbol "ICM-42688-P_1_1"
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "LiDAR Scanner:RPLiDAR_A1_I/O"
@@ -3278,78 +3697,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -11.43 3.81 0)
-					(length 2.54)
-					(name "VCC_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -11.43 1.27 0)
-					(length 2.54)
-					(name "TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -11.43 -1.27 0)
-					(length 2.54)
-					(name "RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -11.43 -3.81 0)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 11.43 2.54 180)
 					(length 2.54)
 					(name "VMOTO"
@@ -3359,7 +3706,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3377,7 +3724,43 @@
 							)
 						)
 					)
-					(number "6"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "MGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VCC_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3386,9 +3769,45 @@
 					)
 				)
 				(pin bidirectional line
-					(at 11.43 -2.54 180)
+					(at -11.43 -1.27 0)
 					(length 2.54)
-					(name "MGND"
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "DGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5221,6 +5640,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5500,6 +6120,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 197.358 74.93)
@@ -5561,16 +6296,6 @@
 		)
 		(uuid "de91d282-904b-4d9d-b777-2e05b9127f5b")
 	)
-	(text "enable/disable motor"
-		(exclude_from_sim no)
-		(at 265.176 83.312 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "00c9d06c-f9f5-4539-8c7e-d9e7c1c4fa5c")
-	)
 	(text "MCU\n"
 		(exclude_from_sim no)
 		(at 21.336 132.588 0)
@@ -5580,6 +6305,16 @@
 			)
 		)
 		(uuid "095ce8fa-914e-40b6-910f-526db05e05a5")
+	)
+	(text "UZG1V220MCL1GB"
+		(exclude_from_sim no)
+		(at 209.296 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c1c3fb5-83d9-49d9-8264-b29f3ea2be81")
 	)
 	(text "RPLiDAR Interface"
 		(exclude_from_sim no)
@@ -5601,7 +6336,17 @@
 		)
 		(uuid "95fe9ad9-0b48-4bd6-b7e7-dd364c14a901")
 	)
-	(text "Header for Debugging"
+	(text "UZG1C470MCL1GB"
+		(exclude_from_sim no)
+		(at 268.732 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce0d7664-c1e6-4f55-b535-51fc7a29384a")
+	)
+	(text "Headers for Debugging"
 		(exclude_from_sim no)
 		(at 209.55 161.544 0)
 		(effects
@@ -5610,6 +6355,16 @@
 			)
 		)
 		(uuid "d1be8b0e-3c41-4c13-baaf-7ff560df80ef")
+	)
+	(text "ABM3B"
+		(exclude_from_sim no)
+		(at 51.054 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6fea379-5069-4cba-8bb8-b3b2a4581656")
 	)
 	(text "IMU"
 		(exclude_from_sim no)
@@ -5620,6 +6375,17 @@
 			)
 		)
 		(uuid "feb22168-7db5-4b53-b515-5430ce5ba93c")
+	)
+	(text "Crystal: ABM3B-8.000MHZ-B2-T\nButton: B3F-1002"
+		(exclude_from_sim no)
+		(at 18.796 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff72b39f-8c2c-43a3-8b1d-eebc885d7c73")
 	)
 	(junction
 		(at 163.83 144.78)
@@ -5634,6 +6400,12 @@
 		(uuid "0b9e2772-9b75-44da-a52e-14cc56778f3e")
 	)
 	(junction
+		(at 33.02 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f6631d9-532e-4f1c-b7c4-603db7735c84")
+	)
+	(junction
 		(at 27.94 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5646,6 +6418,12 @@
 		(uuid "11fbca44-23b5-45a2-ace7-df7ee5c0fe8a")
 	)
 	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121ebf44-32bc-4d77-a140-fac1a6144d41")
+	)
+	(junction
 		(at 185.42 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5656,6 +6434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "201a8a22-dab3-4395-9b3a-21e9791476e1")
+	)
+	(junction
+		(at 68.58 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2096c356-3e07-4ae1-803e-44c0a9ba68ff")
 	)
 	(junction
 		(at 91.44 34.29)
@@ -5688,28 +6472,16 @@
 		(uuid "4af27e8a-d92a-402b-8038-a74eb0e61cf8")
 	)
 	(junction
-		(at 54.61 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c16590f-7613-475b-bbaf-4fd6e4143aee")
-	)
-	(junction
 		(at 86.36 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dfc46c5-fcb8-40de-9f8c-8e49d6bdd450")
 	)
 	(junction
-		(at 41.91 71.12)
+		(at 59.69 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e0fa138-a9b7-4c98-a19f-83e99fe35c0c")
-	)
-	(junction
-		(at 257.81 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6362090d-7f57-4dfe-bb67-dde1fb748592")
+		(uuid "591a311e-786a-4aa2-a7a8-3e453c40e847")
 	)
 	(junction
 		(at 146.05 134.62)
@@ -5718,16 +6490,10 @@
 		(uuid "683bc365-88e3-45a3-b4de-47858d23a980")
 	)
 	(junction
-		(at 29.21 71.12)
+		(at 58.42 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "736daf89-8d81-4db2-9f13-eb01fa0af57c")
-	)
-	(junction
-		(at 34.29 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c5860c1-5858-4847-94c7-771b76ffea39")
+		(uuid "77cab48c-192a-4e01-9ea0-517e1fecf1eb")
 	)
 	(junction
 		(at 83.82 34.29)
@@ -5748,10 +6514,10 @@
 		(uuid "8d742a30-b10f-403a-b4fa-7bc71af05d28")
 	)
 	(junction
-		(at 59.69 59.69)
+		(at 267.97 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92f1da9f-5eb3-4a00-bd40-1b82848d02f6")
+		(uuid "931d6a88-da77-4b2a-83d1-f718b078b009")
 	)
 	(junction
 		(at 257.81 52.07)
@@ -5784,16 +6550,22 @@
 		(uuid "a34e493a-135c-4b5e-958a-9cbf03ae0c37")
 	)
 	(junction
+		(at 257.81 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8706580-7d5a-4e26-9a6e-7cf21a1079fe")
+	)
+	(junction
+		(at 54.61 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c621d1e0-a94c-40de-83b0-3d35845b3bb5")
+	)
+	(junction
 		(at 142.24 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9e36876-fd74-4a10-a68e-0d5dcac3ae55")
-	)
-	(junction
-		(at 46.99 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc72a5cb-816f-4d5b-b707-bee42abdf56b")
 	)
 	(junction
 		(at 177.8 134.62)
@@ -5820,6 +6592,12 @@
 		(uuid "dfe5c65c-6840-4172-b19b-49fd79851b7e")
 	)
 	(junction
+		(at 148.59 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8f22b0a-3ddb-4234-876f-c3cdc22f22d5")
+	)
+	(junction
 		(at 88.9 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5844,22 +6622,98 @@
 		(uuid "f4c67a5d-75d9-43f9-9f89-f13715c41cd8")
 	)
 	(junction
+		(at 45.72 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58161d5-d3e5-40b7-815c-37f99be6793c")
+	)
+	(junction
 		(at 81.28 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7adb712-2637-4462-95ee-61cbab411244")
 	)
 	(junction
-		(at 148.59 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f84b750b-8116-4eb5-aaca-933d2ca69c33")
-	)
-	(junction
 		(at 48.26 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa879094-d5c5-4f5c-8bf1-4be02d1ddc7b")
+	)
+	(no_connect
+		(at 68.58 95.25)
+		(uuid "02e4eaca-cba9-425c-ad7c-f363d692a172")
+	)
+	(no_connect
+		(at 68.58 102.87)
+		(uuid "17b46fe5-0ebe-4004-9e60-f69d21bbd501")
+	)
+	(no_connect
+		(at 68.58 69.85)
+		(uuid "1f4239d8-e72c-4aa5-9e24-ef6561b6fbb5")
+	)
+	(no_connect
+		(at 104.14 85.09)
+		(uuid "44d70853-3b9e-4aa2-8bd9-275104a9a748")
+	)
+	(no_connect
+		(at 104.14 49.53)
+		(uuid "4c520fcb-2c25-4a09-9a1f-08a84c63a504")
+	)
+	(no_connect
+		(at 68.58 107.95)
+		(uuid "710bf607-b818-47e1-b844-5fd6d38f371f")
+	)
+	(no_connect
+		(at 68.58 80.01)
+		(uuid "7d35e9ca-e275-479e-ac1f-3f638894bbd1")
+	)
+	(no_connect
+		(at 68.58 90.17)
+		(uuid "8beabd73-f989-4707-b93d-ae5e5ba4e3d5")
+	)
+	(no_connect
+		(at 68.58 77.47)
+		(uuid "a4a6292e-0c7a-463d-a556-3232176de8e5")
+	)
+	(no_connect
+		(at 68.58 110.49)
+		(uuid "a82c9539-cc81-41a9-b718-b3a0a52a92ac")
+	)
+	(no_connect
+		(at 68.58 97.79)
+		(uuid "af62d0a5-a0d7-4c1e-9390-6df3827e3e23")
+	)
+	(no_connect
+		(at 68.58 67.31)
+		(uuid "b5c54dbd-dc66-453a-b36b-65404b6ce0f0")
+	)
+	(no_connect
+		(at 161.29 113.03)
+		(uuid "b6c77534-2952-4816-a9ee-f6207377f254")
+	)
+	(no_connect
+		(at 104.14 67.31)
+		(uuid "d09b3754-75cf-4589-b0ab-43518bf27cec")
+	)
+	(no_connect
+		(at 68.58 105.41)
+		(uuid "de33f6d7-a89c-453c-8bf8-f34badcb24e9")
+	)
+	(no_connect
+		(at 161.29 115.57)
+		(uuid "eb267056-023c-4be8-9931-9039b7747cce")
+	)
+	(no_connect
+		(at 104.14 46.99)
+		(uuid "f1f40bbd-af20-4346-b68c-be4eb80a3e1e")
+	)
+	(no_connect
+		(at 68.58 92.71)
+		(uuid "f2549fd6-7ec6-4912-b8ee-57cf049bec07")
+	)
+	(no_connect
+		(at 68.58 64.77)
+		(uuid "f89ef458-50c1-40ac-a771-9adf719a28a0")
 	)
 	(wire
 		(pts
@@ -5923,16 +6777,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.812 46.99) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ae37377-2a55-4603-8947-ae52f1537733")
-	)
-	(wire
-		(pts
 			(xy 54.61 57.15) (xy 68.58 57.15)
 		)
 		(stroke
@@ -5943,13 +6787,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 46.99 50.8)
+			(xy 257.81 58.42) (xy 267.97 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c5d20ac-bb98-4212-a087-baeee99ea02a")
+		(uuid "0d43685a-155b-49c7-8276-b014c7e93fb3")
 	)
 	(wire
 		(pts
@@ -5970,6 +6814,16 @@
 			(type default)
 		)
 		(uuid "0e6f3b02-1732-4b7b-b960-03a7f35eb45d")
+	)
+	(wire
+		(pts
+			(xy 147.32 46.99) (xy 148.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f2494f-5943-408c-a7d1-28703dde4256")
 	)
 	(wire
 		(pts
@@ -6003,13 +6857,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 71.12) (xy 20.32 72.39)
+			(xy 179.07 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1903199a-bbae-440c-8998-ea2dfd3f18f9")
+		(uuid "163633f0-8365-4d56-bfcd-e7ec8be7b1a6")
 	)
 	(wire
 		(pts
@@ -6043,13 +6897,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 49.53) (xy 269.24 58.42)
+			(xy 267.97 52.07) (xy 267.97 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d64210a-0d3b-479d-8031-1253f884089f")
+		(uuid "1e2bf2aa-406f-4fbc-a968-326e7d0fe45d")
 	)
 	(wire
 		(pts
@@ -6090,26 +6944,6 @@
 			(type default)
 		)
 		(uuid "27715f8a-1c39-4488-bd4c-bea8ad383cd9")
-	)
-	(wire
-		(pts
-			(xy 29.21 71.12) (xy 30.48 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281cae71-6e77-43fc-9614-12cb00b7d2e5")
-	)
-	(wire
-		(pts
-			(xy 54.61 59.69) (xy 54.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f68543-7a6d-4126-9de5-a7c5cd743ed9")
 	)
 	(wire
 		(pts
@@ -6183,6 +7017,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 46.99) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37911a18-c220-470f-a7c1-8c70750a5fbc")
+	)
+	(wire
+		(pts
 			(xy 142.24 135.89) (xy 142.24 134.62)
 		)
 		(stroke
@@ -6223,16 +7067,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 71.12) (xy 29.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc0dddb-df13-4f95-b409-c4b4e43858c5")
-	)
-	(wire
-		(pts
 			(xy 54.61 67.31) (xy 57.15 67.31)
 		)
 		(stroke
@@ -6240,6 +7074,16 @@
 			(type default)
 		)
 		(uuid "3e8b33d3-b508-4928-83e1-f0254b79ad6d")
+	)
+	(wire
+		(pts
+			(xy 267.97 52.07) (xy 269.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4004911a-5fd4-4603-b149-57dd2924bb8e")
 	)
 	(wire
 		(pts
@@ -6260,16 +7104,6 @@
 			(type default)
 		)
 		(uuid "452de255-d2d4-4bd8-bc41-4e4945161864")
-	)
-	(wire
-		(pts
-			(xy 257.81 58.42) (xy 269.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c80e6e-62cb-4098-a684-55d483f90acd")
 	)
 	(wire
 		(pts
@@ -6333,7 +7167,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 52.07) (xy 257.81 52.07)
+			(xy 257.81 52.07) (xy 267.97 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6343,7 +7177,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 85.09) (xy 184.15 85.09)
+			(xy 176.53 85.09) (xy 179.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6413,16 +7247,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 71.12) (xy 20.32 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632d1a26-db26-4c25-a008-2941ba8f6caa")
-	)
-	(wire
-		(pts
 			(xy 218.44 95.25) (xy 227.33 95.25)
 		)
 		(stroke
@@ -6473,6 +7297,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 45.72) (xy 33.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72dc372c-df6f-42f9-8fa0-2c8cc023cd8d")
+	)
+	(wire
+		(pts
 			(xy 147.32 137.16) (xy 146.05 137.16)
 		)
 		(stroke
@@ -6480,16 +7314,6 @@
 			(type default)
 		)
 		(uuid "748c0fab-7364-4792-a817-947af383b590")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 52.07 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "782359bd-b80e-4232-944a-51a4b2a42143")
 	)
 	(wire
 		(pts
@@ -6513,16 +7337,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 50.8) (xy 35.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e04c2b2-b967-4042-9307-3b184b9b6d2e")
-	)
-	(wire
-		(pts
 			(xy 161.29 97.79) (xy 163.83 97.79)
 		)
 		(stroke
@@ -6530,16 +7344,6 @@
 			(type default)
 		)
 		(uuid "7e90c59f-8518-4dcd-a901-42f6cf152e6c")
-	)
-	(wire
-		(pts
-			(xy 41.91 71.12) (xy 46.99 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814cdd37-edf7-42aa-a405-ef85cec2b2b1")
 	)
 	(wire
 		(pts
@@ -6573,6 +7377,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 31.75) (xy 68.58 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86aa0827-02b3-4769-80c1-8779d06d2123")
+	)
+	(wire
+		(pts
 			(xy 38.1 26.67) (xy 48.26 26.67)
 		)
 		(stroke
@@ -6590,6 +7404,16 @@
 			(type default)
 		)
 		(uuid "8a370097-2ecb-446c-bcdd-2551ce07bc98")
+	)
+	(wire
+		(pts
+			(xy 36.83 81.28) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a49bef3-5789-4f67-82e5-5294e11e21b4")
 	)
 	(wire
 		(pts
@@ -6693,6 +7517,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 46.99) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a309c047-4fd3-4ac6-8736-89539c93617f")
+	)
+	(wire
+		(pts
 			(xy 163.83 100.33) (xy 166.37 100.33)
 		)
 		(stroke
@@ -6730,16 +7564,6 @@
 			(type default)
 		)
 		(uuid "a5947071-ec00-4715-9516-6aacc532e1d7")
-	)
-	(wire
-		(pts
-			(xy 33.02 50.8) (xy 34.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7923cb2-1a19-43ce-a8a9-a91363c0d6bf")
 	)
 	(wire
 		(pts
@@ -6783,13 +7607,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 50.8) (xy 46.99 50.8)
+			(xy 43.18 81.28) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af1271d3-2cf2-45b0-b4bd-14e9294cdd18")
+		(uuid "b086c0a0-1c41-4690-8433-a1145e4ef287")
 	)
 	(wire
 		(pts
@@ -6823,16 +7647,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 68.58) (xy 29.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f7c41c-1e84-455c-a7fe-500516ff2108")
-	)
-	(wire
-		(pts
 			(xy 213.36 95.25) (xy 218.44 95.25)
 		)
 		(stroke
@@ -6840,6 +7654,16 @@
 			(type default)
 		)
 		(uuid "c1706c6f-98b2-435c-acbb-1dcfc67c8490")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17fbc0c-a73d-46ee-a945-4afbff504712")
 	)
 	(wire
 		(pts
@@ -6890,6 +7714,16 @@
 			(type default)
 		)
 		(uuid "d7f51fa0-7565-4564-916e-4d340c1ed177")
+	)
+	(wire
+		(pts
+			(xy 68.58 26.67) (xy 81.28 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92e69df-b3cb-4edf-85df-a3ed4196994b")
 	)
 	(wire
 		(pts
@@ -6963,7 +7797,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 26.67) (xy 81.28 26.67)
+			(xy 54.61 59.69) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6438050-f915-4298-aeed-4762f85f96f7")
+	)
+	(wire
+		(pts
+			(xy 58.42 26.67) (xy 68.58 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7073,16 +7917,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 71.12) (xy 41.91 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7381d3b-7b2d-4f90-b07b-e547bb27606f")
-	)
-	(wire
-		(pts
 			(xy 59.69 115.57) (xy 55.88 115.57)
 		)
 		(stroke
@@ -7111,15 +7945,15 @@
 		)
 		(uuid "01a45887-eb45-4dd7-8ae5-272f61e09d2f")
 	)
-	(label "BOOT0"
-		(at 46.99 71.12 0)
+	(label "UIN_P"
+		(at 161.29 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1682d7d9-3b37-4631-9ac9-5b7b76b5a4ed")
+		(uuid "03cf811d-46b9-45fe-8c69-39b0316f478c")
 	)
 	(label "CC1"
 		(at 162.56 90.17 0)
@@ -7171,6 +8005,16 @@
 		)
 		(uuid "6468a3b4-648e-4b1c-a258-e56a3bf54cb8")
 	)
+	(label "UIN_N"
+		(at 162.56 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ac0ce72-8ef0-403e-8531-a2560a9213b8")
+	)
 	(label "CC2"
 		(at 176.53 119.38 180)
 		(effects
@@ -7201,6 +8045,16 @@
 		)
 		(uuid "9e486bd8-9107-4cf8-9c4e-3a7bd7635691")
 	)
+	(label "BOOT0"
+		(at 44.45 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3dcbaea-9281-4ae8-927e-1da031b248e4")
+	)
 	(label "SWCLK"
 		(at 110.49 82.55 0)
 		(effects
@@ -7212,7 +8066,7 @@
 		(uuid "d13c065e-6c50-4332-8a8b-4bcb8b556acc")
 	)
 	(label "NRST"
-		(at 52.07 50.8 0)
+		(at 50.8 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7233,7 +8087,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 260.35 52.07 0)
+		(at 269.24 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7243,7 +8097,7 @@
 		)
 		(uuid "0366f7c5-1038-419f-a2f9-2e6ea6f2e82a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.4476 52.07 0)
+			(at 276.3376 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,7 +8111,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 46.99 44.45 90)
+		(at 33.02 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7267,7 +8121,7 @@
 		)
 		(uuid "0789b06e-1c7c-4976-a570-c69004752bc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 37.3524 90)
+			(at 33.02 33.5424 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,30 +8130,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 27.94 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08885ffc-0ffc-44e4-ac10-9695da548b4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.8424 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7353,7 +8183,7 @@
 	)
 	(global_label "SPI1_SCK"
 		(shape input)
-		(at 242.57 139.7 0)
+		(at 227.33 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7363,7 +8193,31 @@
 		)
 		(uuid "13821564-f0e4-41ba-8cce-6952dce724a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5661 139.7 0)
+			(at 239.3261 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 227.33 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16907080-603a-4ed6-ae64-18cf5479bba3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.1857 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +8254,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 146.812 46.99 180)
+		(at 147.32 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7410,7 +8264,7 @@
 		)
 		(uuid "1ce17789-0d86-42e2-96c8-c77335f8dc47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7144 46.99 0)
+			(at 140.2224 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +8278,7 @@
 	)
 	(global_label "UART1_RX"
 		(shape input)
-		(at 229.87 144.78 180)
+		(at 214.63 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7434,7 +8288,7 @@
 		)
 		(uuid "1d51dbe4-8899-4da7-8e70-ad68bdd89ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.5715 144.78 0)
+			(at 202.3315 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7443,6 +8297,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 259.08 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fb6d896-d158-4538-be4d-18db30940c45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.9357 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7496,7 +8374,7 @@
 	)
 	(global_label "DEBUG_B"
 		(shape input)
-		(at 68.58 107.95 180)
+		(at 68.58 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7506,7 +8384,7 @@
 		)
 		(uuid "2bc1734b-2c68-4dfc-a1ad-782a2022ce7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0677 107.95 0)
+			(at 57.0677 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +8422,7 @@
 	)
 	(global_label "SPI1_MISO"
 		(shape input)
-		(at 242.57 137.16 0)
+		(at 227.33 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7554,7 +8432,7 @@
 		)
 		(uuid "2ef13325-6632-4471-bc48-71251ef32728")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4128 137.16 0)
+			(at 240.1728 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +8444,7 @@
 			)
 		)
 	)
-	(global_label "D+"
+	(global_label "USB_P"
 		(shape bidirectional)
 		(at 104.14 77.47 0)
 		(fields_autoplaced yes)
@@ -7578,7 +8456,7 @@
 		)
 		(uuid "3130da52-fb13-4c03-a987-668b501053bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0789 77.47 0)
+			(at 114.2841 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,7 +8494,7 @@
 	)
 	(global_label "INT (EXTI)"
 		(shape input)
-		(at 68.58 92.71 180)
+		(at 68.58 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7626,7 +8504,7 @@
 		)
 		(uuid "3bd36d28-b49d-403b-8645-e4230aee5f53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1 92.71 0)
+			(at 56.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,30 +8588,6 @@
 			)
 		)
 	)
-	(global_label "DEBUG_C"
-		(shape input)
-		(at 242.57 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48789b1e-3d09-4af7-9276-ce363e7ec6cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0823 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "UART1_TX"
 		(shape input)
 		(at 104.14 72.39 0)
@@ -7782,7 +8636,7 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "USB_N"
 		(shape bidirectional)
 		(at 177.8 100.33 0)
 		(fields_autoplaced yes)
@@ -7794,7 +8648,7 @@
 		)
 		(uuid "61faf4f9-dae7-415c-aadf-424d5d0d8083")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7389 100.33 0)
+			(at 188.0046 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,7 +8660,7 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "USB_N"
 		(shape bidirectional)
 		(at 104.14 74.93 0)
 		(fields_autoplaced yes)
@@ -7818,7 +8672,7 @@
 		)
 		(uuid "6e149bf6-d1ea-4712-adc4-5c82a56280ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0789 74.93 0)
+			(at 114.3446 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7880,7 +8734,7 @@
 	)
 	(global_label "DEBUG_A"
 		(shape input)
-		(at 68.58 105.41 180)
+		(at 68.58 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7890,7 +8744,7 @@
 		)
 		(uuid "7a77fb1c-e3d5-46f4-ae79-29ce0c49a07a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.2491 105.41 0)
+			(at 57.2491 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +8806,7 @@
 	)
 	(global_label "SPI1_CS"
 		(shape input)
-		(at 242.57 142.24 0)
+		(at 227.33 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7962,7 +8816,7 @@
 		)
 		(uuid "7fc9a450-1d00-4193-905a-4cffa97fc81a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2961 142.24 0)
+			(at 238.0561 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8854,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 229.87 134.62 180)
+		(at 214.63 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8010,7 +8864,7 @@
 		)
 		(uuid "8b10b319-c12c-4b42-9892-342b686dbe5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.0143 134.62 0)
+			(at 207.7743 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8070,30 +8924,6 @@
 			)
 		)
 	)
-	(global_label "DEBUG_A"
-		(shape input)
-		(at 229.87 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9381eb63-b60b-4cc4-89a7-55b3674a7ac9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.5391 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "VCC"
 		(shape input)
 		(at 210.82 87.63 180)
@@ -8120,7 +8950,7 @@
 	)
 	(global_label "DEBUG_C"
 		(shape input)
-		(at 68.58 110.49 180)
+		(at 68.58 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8130,7 +8960,7 @@
 		)
 		(uuid "9d83dea9-2fcf-417f-9aef-3076360e4192")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0677 110.49 0)
+			(at 57.0677 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8144,7 +8974,7 @@
 	)
 	(global_label "SPI1_MOSI"
 		(shape input)
-		(at 242.57 134.62 0)
+		(at 227.33 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8154,7 +8984,7 @@
 		)
 		(uuid "9ddf0780-6c9f-4e18-af0c-0bbe672463ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4128 134.62 0)
+			(at 240.1728 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8998,7 @@
 	)
 	(global_label "UART1_TX"
 		(shape input)
-		(at 229.87 142.24 180)
+		(at 214.63 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8178,7 +9008,7 @@
 		)
 		(uuid "a74587b8-6248-4edd-9cf9-9d9435421ac0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.8739 142.24 0)
+			(at 202.6339 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,9 +9020,9 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "DEBUG_A"
 		(shape input)
-		(at 29.21 68.58 90)
+		(at 259.08 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8200,9 +9030,33 @@
 			)
 			(justify left)
 		)
-		(uuid "b6813a44-9dc1-4689-8e56-4bfb3cc47889")
+		(uuid "b2fe713f-d61c-403c-b5d4-0358686c55fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 61.4824 90)
+			(at 270.4109 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 227.33 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be9e1412-2e10-41ab-aa15-cd0ee7e0f08a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.1857 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,19 +9140,19 @@
 			)
 		)
 	)
-	(global_label "DEBUG_B"
+	(global_label "GND"
 		(shape input)
-		(at 242.57 144.78 0)
+		(at 214.63 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cf9a9c78-ef14-4647-9eec-ecdcdea9c328")
+		(uuid "ccbfb9c3-152f-4108-a9c5-a804cd689adc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0823 144.78 0)
+			(at 207.7743 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8306,7 +9160,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -8334,7 +9188,7 @@
 			)
 		)
 	)
-	(global_label "D+"
+	(global_label "USB_P"
 		(shape bidirectional)
 		(at 177.8 102.87 0)
 		(fields_autoplaced yes)
@@ -8346,7 +9200,7 @@
 		)
 		(uuid "d5751bc3-02c4-4c6a-8a41-f278c61623e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7389 102.87 0)
+			(at 187.9441 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8408,17 +9262,17 @@
 	)
 	(global_label "PWM"
 		(shape input)
-		(at 104.14 67.31 0)
+		(at 68.58 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dbd1fd54-e157-4366-8bec-5b01611df34e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.298 67.31 0)
+			(at 61.422 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +9280,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -8456,17 +9310,17 @@
 	)
 	(global_label "SPI1_CS"
 		(shape input)
-		(at 68.58 74.93 180)
+		(at 104.14 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e072bed4-ada9-4606-838d-71b398e34c10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.8539 74.93 0)
+			(at 114.8661 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,7 +9328,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -8491,6 +9345,102 @@
 		(uuid "e1dee59e-d8d2-4d99-8e72-b4ddfce10d61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.4385 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 259.08 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e23d3414-b88a-4cc9-9175-976edfcd1902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.1776 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DEBUG_C"
+		(shape input)
+		(at 259.08 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e26d128b-d134-4317-93cc-661d2b0b3fb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.5923 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 26.67 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b2fbf9-8b8d-4335-a557-327ab0f932a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5724 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DEBUG_B"
+		(shape input)
+		(at 259.08 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4b373ff-8d90-44f4-877f-3d2a7ffdb44f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.5923 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +9478,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 229.87 139.7 180)
+		(at 214.63 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8538,7 +9488,7 @@
 		)
 		(uuid "f3b753ac-eeff-4ab9-a9a2-e0405d824d32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.7724 139.7 0)
+			(at 207.5324 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,7 +9502,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 229.87 137.16 180)
+		(at 214.63 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8562,7 +9512,7 @@
 		)
 		(uuid "fb78aa57-305f-49c1-8aef-b96501f4d852")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.2562 137.16 0)
+			(at 208.0162 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,6 +9521,160 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00b9ab26-d5de-4753-af80-45c786a0d6ac")
+		(property "Reference" "#FLG01"
+			(at 179.07 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 179.07 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6add3c3-b9b4-43a2-abe3-ceff4e32c48c")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01da7813-e1bc-46c8-a5da-14e3e1f5ff0a")
+		(property "Reference" "#PWR016"
+			(at 33.02 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.052 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "162455d9-6618-4160-8a02-9bfa50a49ba7")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "#PWR016")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8608,7 +9712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.53 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8657,6 +9761,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 269.24 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09463253-1823-4093-a0c0-efa098c7b29a")
+		(property "Reference" "#PWR021"
+			(at 275.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.526 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dd5dfc6-f0db-4d43-abbe-58c5ba1616bd")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 39.37 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b7a4b57-ed47-4a85-b255-f97b3c1b7040")
+		(property "Reference" "R6"
+			(at 39.37 42.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 39.37 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7170cb5c-c247-418b-b014-907be5cc4c18")
+		)
+		(pin "1"
+			(uuid "d76a9d9c-647c-4aec-9aea-099289361e15")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 62.23 115.57 90)
 		(unit 1)
@@ -8667,7 +9928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c322643-1198-484a-aed3-1b204d295fbe")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 62.23 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 62.23 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8729,7 +9990,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8823,7 +10084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12172177-0d23-4eb6-9e69-630b03985b9b")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 145.542 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +10095,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 146.558 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8845,7 +10106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.59 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8887,7 +10148,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8904,7 +10165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "151d52e2-17c9-40a8-b307-7a6bfeaeb493")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 61.722 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,7 +10187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8968,7 +10229,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8976,7 +10237,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 46.99 46.99 0)
+		(at 33.02 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8985,8 +10246,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15c73b78-10e8-4ee7-bcfd-b0f3951df025")
-		(property "Reference" "R3"
-			(at 48.514 45.72 0)
+		(property "Reference" "R5"
+			(at 28.702 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8997,7 +10258,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.006 47.498 0)
+			(at 28.194 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9007,8 +10268,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.99 46.99 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9019,7 +10280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 46.99 0)
+			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9030,7 +10291,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 46.99 46.99 0)
+			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +10310,96 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "R3")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 254 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18c2451b-0032-43f1-a6a9-0d3187041cc2")
+		(property "Reference" "J4"
+			(at 254.635 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPIO DEBUG"
+			(at 254.635 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "43dc406b-05a2-405b-b814-ee3f9e15b82f")
+		)
+		(pin "4"
+			(uuid "5d9c83db-c2c9-4819-9db4-934f9ddb28da")
+		)
+		(pin "5"
+			(uuid "60f29588-5b78-4324-a88b-a9b3f3e2bd93")
+		)
+		(pin "1"
+			(uuid "0050a5ce-9b42-460e-804c-02857ad75be7")
+		)
+		(pin "2"
+			(uuid "e6647f24-07d9-46fa-bc14-77439b9a22e1")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9066,7 +10416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a0a6e13-1f83-42ff-ba86-3e9757953da1")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 29.972 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9088,7 +10438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 27.94 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9130,15 +10480,15 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND2_Small")
-		(at 57.15 59.69 0)
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 146.05 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9146,31 +10496,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2440f126-0e55-406b-890f-d537ad6c6136")
-		(property "Reference" "Y2"
-			(at 50.038 58.42 0)
+		(fields_autoplaced yes)
+		(uuid "2126e844-bbdd-44fc-a17a-a60a1b676c3d")
+		(property "Reference" "J1"
+			(at 146.05 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "8MHz"
-			(at 48.768 60.452 0)
+		(property "Value" "USB4215-03-A"
+			(at 146.05 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 59.69 0)
+		(property "Footprint" "LiDAR:GCT_USB4215-03-A_REVA"
+			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9180,8 +10529,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 59.69 0)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,8 +10540,8 @@
 				)
 			)
 		)
-		(property "Description" "Three pin crystal, GND on pin 2, small symbol"
-			(at 57.15 59.69 0)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,19 +10551,61 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c47c6d4c-690f-49e3-af17-2b5011e3ddf8")
+		(pin "B6"
+			(uuid "f1314bb2-bdb4-4cd6-a7b2-5db63571e2c3")
 		)
-		(pin "3"
-			(uuid "ae86b43e-5d54-4bac-a5fe-b99828e6f33a")
+		(pin "A12"
+			(uuid "5267dbca-0587-4a72-ab84-e7a8bf92135b")
 		)
-		(pin "2"
-			(uuid "970cd4ce-15af-46a3-b754-aaf0f9ba4df8")
+		(pin "B5"
+			(uuid "3388d757-f962-48dc-a531-e37cf32c1440")
+		)
+		(pin "A6"
+			(uuid "3f10cc4d-03b1-4557-8055-740ef186328f")
+		)
+		(pin "A9"
+			(uuid "e6dd54b9-3d1c-486e-b977-cdd5551a4b49")
+		)
+		(pin "A7"
+			(uuid "3e545866-8b33-4d63-b05f-06f4fe0bf5ae")
+		)
+		(pin "B4"
+			(uuid "78372f8b-6df3-451c-97f7-d1f2fb85ba12")
+		)
+		(pin "A5"
+			(uuid "00731629-e44c-4fa4-9dc0-e8b39addf3c3")
+		)
+		(pin "B1"
+			(uuid "d2aa2065-7591-4c4a-aff2-0eef6a2c1bf0")
+		)
+		(pin "A8"
+			(uuid "0bc5f7a9-8ced-403a-a193-28156b1a220f")
+		)
+		(pin "A4"
+			(uuid "74f53b42-b89c-4b70-bfc9-295769414584")
+		)
+		(pin "A1"
+			(uuid "5aefaeb5-94df-492d-8fa9-46550819ac50")
+		)
+		(pin "SH"
+			(uuid "6d1157d5-a8e5-41e5-b2c3-09dc606be319")
+		)
+		(pin "B8"
+			(uuid "f4d9d319-55a7-488a-b6fd-32acb6bd56f6")
+		)
+		(pin "B12"
+			(uuid "6f82b42a-662c-4f66-ad88-08f1c9f425c1")
+		)
+		(pin "B9"
+			(uuid "9fc99bfd-dee2-414f-ba99-27204513db3f")
+		)
+		(pin "B7"
+			(uuid "d32f88fd-461d-4947-8b00-e6142f6b2ab0")
 		)
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "Y2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9299,83 +10690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 20.32 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2aec248a-9229-46ec-a8ba-2a75b521e72b")
-		(property "Reference" "#PWR021"
-			(at 20.32 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19182e77-e422-4dc7-abf2-fce86ead2fea")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 172.72 134.62 90)
 		(unit 1)
@@ -9386,7 +10700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b0b9ff0-d269-4d9b-90ea-c3a03525c7c7")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 172.72 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9406,7 +10720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.72 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9448,7 +10762,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9688,85 +11002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 265.43 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "327b2f25-a285-464a-be49-be1a5e61d243")
-		(property "Reference" "R8"
-			(at 264.922 84.836 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 264.922 86.614 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 265.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7450793-881b-4f50-a10f-79687ce85358")
-		)
-		(pin "1"
-			(uuid "c40dbf99-c5a4-4a3b-9b1e-b36e09e4ef7f")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 260.35 91.44 0)
 		(unit 1)
@@ -9777,7 +11012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33873e84-aa4c-4b4b-a96e-2acfd0276d57")
-		(property "Reference" "C10"
+		(property "Reference" "C18"
 			(at 261.62 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9799,7 +11034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LiDAR:PCAP_6.3x3-ELECT_NCA-L"
 			(at 260.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9841,7 +11076,87 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C10")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 265.43 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c26b619-b030-42e9-9e57-903da37af588")
+		(property "Reference" "FB2"
+			(at 265.3919 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A, low DCR, 600R @ 100MHz"
+			(at 265.3919 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 265.43 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "65111a86-224c-42f1-8b71-db26657c9688")
+		)
+		(pin "1"
+			(uuid "51ab0c81-65b3-462d-9208-c76788c6c9c8")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -9925,87 +11240,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 41.91 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41dfc517-c1e5-4830-acc8-f302bedbad25")
-		(property "Reference" "R4"
-			(at 43.434 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 42.926 74.168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 41.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0bb6b10-e125-47ff-8aa8-a4214897c31a")
-		)
-		(pin "2"
-			(uuid "1e242e27-f60c-4cc3-9a0b-19b8529bf7dd")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 163.83 137.16 0)
 		(mirror x)
@@ -10017,7 +11251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a1c9024-7a58-4766-b8f4-a36a624737e8")
-		(property "Reference" "C11"
+		(property "Reference" "C3"
 			(at 165.608 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10039,7 +11273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 163.83 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10081,7 +11315,89 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C11")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 31.75 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4faf5ef6-63b9-494d-ac66-734cf11df0b2")
+		(property "Reference" "SW2"
+			(at 31.75 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 31.75 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 31.75 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 31.75 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 31.75 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a418ad6c-73c9-4592-8fba-ab07c86895c4")
+		)
+		(pin "1"
+			(uuid "36a5db21-be9e-4951-8311-41211089e89a")
+		)
+		(pin "2"
+			(uuid "1ab6b2a0-8d0b-48df-b1ce-98c5d8f434a5")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10089,7 +11405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 50.8 0)
+		(at 45.72 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10099,7 +11415,7 @@
 		(dnp no)
 		(uuid "53a56b94-a919-4ee8-9329-67dd7525a0b5")
 		(property "Reference" "#PWR08"
-			(at 34.29 57.15 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +11426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 54.356 0)
+			(at 43.434 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10120,7 +11436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 50.8 0)
+			(at 45.72 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +11447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 50.8 0)
+			(at 45.72 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10142,7 +11458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 50.8 0)
+			(at 45.72 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10175,7 +11491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "543cfccc-8a4a-4fe6-8c5e-99c093656045")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 60.452 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10197,7 +11513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 58.42 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10239,7 +11555,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10279,7 +11595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 127 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10409,6 +11725,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 267.97 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ab68543-ca14-43dd-a4be-053f3b38226e")
+		(property "Reference" "C16"
+			(at 260.858 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 259.842 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 267.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49c8a09e-5006-4947-b417-054e2e7ec029")
+		)
+		(pin "1"
+			(uuid "ee0fb2ee-c89d-4b80-b802-1f5732e43946")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 40.64 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5dfc561f-46a9-49d5-bd68-b469f3c31692")
+		(property "Reference" "R7"
+			(at 40.64 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.64 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 40.64 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c8677d7-da72-401f-b2f5-27dd9c959f03")
+		)
+		(pin "1"
+			(uuid "952995d1-f52a-4885-8680-6c02ff785eda")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 123.19 0)
 		(unit 1)
@@ -10498,7 +11975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63274a44-a880-46c7-bf14-2f84113cc901")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 52.324 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10520,7 +11997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10562,7 +12039,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10602,7 +12079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 89.662 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -10651,8 +12128,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 25.4 71.12 270)
+		(lib_id "LiDAR Scanner:ICM-42688-P")
+		(at 157.48 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10660,29 +12137,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e2f09d4-96e2-41e4-8bce-6cf1a38484cd")
-		(property "Reference" "C12"
-			(at 22.86 66.548 90)
+		(fields_autoplaced yes)
+		(uuid "746625c2-8f59-4589-ba6a-7026d3c1b37d")
+		(property "Reference" "U2"
+			(at 205.74 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ICM-42688-P"
+			(at 205.74 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LiDAR:LGA14_2P5X3X0P91_TDK"
+			(at 157.48 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 22.86 68.326 90)
+		(property "Datasheet" "ICM-42688-P"
+			(at 157.48 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 25.4 71.12 0)
+		(property "Description" ""
+			(at 157.48 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,38 +12194,52 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 25.4 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "14"
+			(uuid "bac4e21b-948b-4bff-9928-d2900ba2a68b")
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 25.4 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "6"
+			(uuid "d61ef128-07bb-4832-9ab7-b932501a0d90")
 		)
-		(pin "1"
-			(uuid "4c2d6c97-2fa8-40e7-9c6e-f4399254d32d")
+		(pin "12"
+			(uuid "9cbb7c9d-e1af-4301-bee2-c0ac4c39042a")
 		)
 		(pin "2"
-			(uuid "438d8733-fc0b-41f0-b6d3-8e9baf8e57a8")
+			(uuid "57bd4b08-39ab-4c07-aec1-85deca077490")
+		)
+		(pin "7"
+			(uuid "c130b512-734e-40e8-a26b-2f285bce1896")
+		)
+		(pin "11"
+			(uuid "c83f0dc4-475d-41c9-8b65-d1e64a147bca")
+		)
+		(pin "1"
+			(uuid "0df6905e-5bcb-4d46-9476-f7d167388e24")
+		)
+		(pin "4"
+			(uuid "b2182f7e-5a29-4ed1-89ec-ffd7d704f718")
+		)
+		(pin "9"
+			(uuid "d5cd56e3-c3c6-4a54-b8e7-bcf680e3ee18")
+		)
+		(pin "3"
+			(uuid "122f57bd-ef19-4510-a6a5-dcde55d6c212")
+		)
+		(pin "5"
+			(uuid "01f71a47-a555-448d-a002-33d1a9a2c407")
+		)
+		(pin "8"
+			(uuid "1a3d2841-bce1-48c8-a26c-a165af8e3064")
+		)
+		(pin "10"
+			(uuid "3853651a-b57b-4f22-983e-06b893d5040d")
+		)
+		(pin "13"
+			(uuid "4dc25f45-a5c9-47be-b1b5-d12f83de9ae9")
 		)
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C12")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10818,7 +12334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b99646b-46c3-4f0d-9022-0bd969780686")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 93.98 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,7 +12356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10882,7 +12398,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10976,7 +12492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "839fc4ed-b381-49cf-8b55-3c7216395519")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 50.292 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +12514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11040,86 +12556,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84364d99-775f-49bb-9d68-7c8ed6df8cc5")
-		(property "Reference" "SW2"
-			(at 35.56 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 35.56 66.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "162244ec-ddb2-4af4-9da1-db46894b63f8")
-		)
-		(pin "1"
-			(uuid "7f042bbf-1382-486a-b0cf-f60ac4abec15")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "SW2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11204,100 +12641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiDAR Scanner:RPLiDAR_A1_I/O")
-		(at 238.76 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e9d95b8-3afa-45d2-8e75-ce36f2b60842")
-		(property "Reference" "U1"
-			(at 238.76 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 238.76 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8afa122b-332c-43d6-81b3-c38371e86ce9")
-		)
-		(pin "3"
-			(uuid "5b0a42ce-8226-4ea2-99b0-ca1102715f46")
-		)
-		(pin "2"
-			(uuid "cf5abf3f-4536-47d9-b7c0-2b2d233b9afe")
-		)
-		(pin "7"
-			(uuid "e2ce0dab-603c-484e-b92e-98f651a81e79")
-		)
-		(pin "6"
-			(uuid "93ed039d-40a4-4363-b026-1d10808eeb8e")
-		)
-		(pin "5"
-			(uuid "2b7959ee-111e-4de3-b011-4f0c4aea47d1")
-		)
-		(pin "4"
-			(uuid "63bff844-9a89-4f0c-8578-798134915a1c")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 167.64 144.78 90)
 		(unit 1)
@@ -11308,7 +12651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9212499f-ae67-43f7-9e11-3c0ed5633ac9")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 167.64 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +12671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11370,7 +12713,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11505,7 +12848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 177.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11801,124 +13144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 146.05 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3204d74-1a35-4bf2-921d-f3d2a3594dfe")
-		(property "Reference" "J1"
-			(at 150.876 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 150.876 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 149.86 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 146.05 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A7"
-			(uuid "dfb5baaf-5f0b-49b1-855d-6c6af31cb998")
-		)
-		(pin "A12"
-			(uuid "68084305-d053-42ed-99f2-e27c61f652d1")
-		)
-		(pin "A5"
-			(uuid "9791ed4b-c245-4497-8480-fd2c64fae5ee")
-		)
-		(pin "A6"
-			(uuid "3b2b589a-a167-43a7-adf1-02344526ab4f")
-		)
-		(pin "B1"
-			(uuid "f712f5a5-5c4f-4548-b6e1-3e224d1e9af8")
-		)
-		(pin "B5"
-			(uuid "f83f8280-9062-494a-ad6d-0361a1795792")
-		)
-		(pin "B7"
-			(uuid "a2bcff57-7222-4680-9d6b-251d8ca9879b")
-		)
-		(pin "B6"
-			(uuid "a7be03ef-6928-49f5-9ec6-84eeef9c2b16")
-		)
-		(pin "A9"
-			(uuid "4a6f8d61-0271-4b0e-8dd8-142a55ebbb6a")
-		)
-		(pin "B4"
-			(uuid "9627f5ae-b605-47c8-b003-312bb245aad6")
-		)
-		(pin "A1"
-			(uuid "c9c324a3-370c-4356-9a6f-75e13e580490")
-		)
-		(pin "A4"
-			(uuid "923fbbf6-f7ff-430c-9265-3bd5e84a53eb")
-		)
-		(pin "B9"
-			(uuid "f3b0ee18-8c0d-40f1-a2b7-34cd9a359874")
-		)
-		(pin "SH"
-			(uuid "88e808d1-ea1d-4371-9f22-0843326ec6d1")
-		)
-		(pin "B12"
-			(uuid "dd595544-d1dd-4033-be8f-a0877e074fe0")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 142.24 138.43 0)
 		(mirror x)
@@ -11952,7 +13177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12078,126 +13303,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LiDAR Scanner:ICM-42688-P")
-		(at 157.48 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3722e61-0f60-403c-a0d3-61d9a187df9b")
-		(property "Reference" "U2"
-			(at 205.74 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ICM-42688-P"
-			(at 205.74 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LGA14_2P5X3X0P91_TDK"
-			(at 157.48 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "ICM-42688-P"
-			(at 157.48 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "c05dccb3-8937-4d03-b682-5f82c47bd855")
-		)
-		(pin "2"
-			(uuid "e9ed3b99-501f-4ade-a518-235c3714988d")
-		)
-		(pin "3"
-			(uuid "d62a189b-d9a4-41a6-add7-e0dcd21e8a8e")
-		)
-		(pin "4"
-			(uuid "34b68500-e078-487d-a42c-ee8e25e81f1a")
-		)
-		(pin "5"
-			(uuid "f4a2fb7b-85ca-464b-91a4-37ede16caed4")
-		)
-		(pin "6"
-			(uuid "47ce44d2-5f0d-4bcb-a79a-4b283593cdda")
-		)
-		(pin "7"
-			(uuid "cc6db500-a614-45bf-b56f-5ddbea392ad7")
-		)
-		(pin "8"
-			(uuid "959329c0-045b-44bc-b453-f672d7594a9c")
-		)
-		(pin "9"
-			(uuid "8bb82ac0-8b77-4300-ad0f-cdf902b3da75")
-		)
-		(pin "10"
-			(uuid "08684344-cf12-4a3b-93b9-22af9642d99a")
-		)
-		(pin "11"
-			(uuid "663369de-0673-4c8f-b2c5-d9deb23a5a24")
-		)
-		(pin "12"
-			(uuid "039cf3af-e559-4c61-aa13-ce0b366f3ebc")
-		)
-		(pin "13"
-			(uuid "52a80e42-08b3-4220-a057-c82ee1436e5b")
-		)
-		(pin "1"
-			(uuid "e8752496-9db2-4afc-958f-af4709bc4f53")
-		)
-		(instances
-			(project "LiDAR Scanner"
-				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 40.64 50.8 0)
+		(at 33.02 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12207,7 +13314,7 @@
 		(dnp no)
 		(uuid "b56d2c3c-a7a9-42a8-a31f-19170c793107")
 		(property "Reference" "SW1"
-			(at 40.64 43.942 0)
+			(at 36.068 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12217,7 +13324,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 40.64 46.482 0)
+			(at 36.068 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12226,8 +13333,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 45.72 0)
+		(property "Footprint" "LiDAR:SW_B3F-1000_OMR"
+			(at 27.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12238,7 +13345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 45.72 0)
+			(at 27.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12249,7 +13356,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 50.8 0)
+			(at 33.02 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,6 +13376,195 @@
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 57.15 59.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b694d47f-9804-4f82-bc69-b4ea8cb57ba1")
+		(property "Reference" "Y1"
+			(at 57.15 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 57.15 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiDAR:ABM3B_ABR"
+			(at 57.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 57.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 57.15 72.39 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f854c92f-fd45-4a4f-b79c-24af0ff7bf1b")
+		)
+		(pin "4"
+			(uuid "1a2e37ec-70ce-4bac-ac09-03d9b8e8fc3a")
+		)
+		(pin "2"
+			(uuid "642df9b4-496d-4d6e-b3d3-680a66878ab4")
+		)
+		(pin "3"
+			(uuid "c2aa94ac-ae5b-49bb-98cc-fcf4de1c1034")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9221168-388b-4fb1-8b69-4521b528b171")
+		(property "Reference" "C8"
+			(at 70.612 28.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 70.612 29.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 68.58 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7b3fa58-dec2-4f00-9777-54381aaa8cdf")
+		)
+		(pin "2"
+			(uuid "ac228a34-86ec-48ac-9330-34ed474e74e1")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12305,7 +13601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12608,7 +13904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12658,6 +13954,100 @@
 		)
 	)
 	(symbol
+		(lib_id "LiDAR Scanner:RPLiDAR_A1_I/O")
+		(at 238.76 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cad6ee6d-ff0a-4893-bfce-d25160f6f1db")
+		(property "Reference" "U1"
+			(at 238.76 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 238.76 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiDAR:CONN_22035075_MOL"
+			(at 238.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9cf05fd1-0678-4a5d-b7e1-eb3f7e854fe5")
+		)
+		(pin "6"
+			(uuid "2544afb5-3d22-4c83-9854-14f31e352475")
+		)
+		(pin "5"
+			(uuid "7dfb7469-5777-4fa9-b76d-f6b750e781c7")
+		)
+		(pin "1"
+			(uuid "b68092f9-bcf1-4ffe-a31f-f62c028832a6")
+		)
+		(pin "3"
+			(uuid "67573e08-e8f7-4b65-876c-f3483fa54ae2")
+		)
+		(pin "2"
+			(uuid "50317109-26b1-4f52-8c3e-b019bb1d9575")
+		)
+		(pin "7"
+			(uuid "de7a2b47-bd7c-40d0-8955-2e5696108b03")
+		)
+		(instances
+			(project "LiDAR Scanner"
+				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 213.36 90.17 0)
 		(unit 1)
@@ -12668,7 +14058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbb7bc61-76c8-4f12-8670-25c165a3c76a")
-		(property "Reference" "C9"
+		(property "Reference" "C17"
 			(at 211.328 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +14069,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22uF"
 			(at 211.328 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,7 +14080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LiDAR:PCAP_6.3x3-ELECT_NCA-L"
 			(at 213.36 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12732,7 +14122,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C9")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12740,7 +14130,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 76.2 0)
+		(at 26.67 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12748,9 +14138,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cfd8a5cf-1198-4987-8569-c919e3ff1ba0")
+		(fields_autoplaced yes)
+		(uuid "d34bd286-5524-4c12-a153-95ac35e51ab1")
 		(property "Reference" "#PWR04"
-			(at 41.91 82.55 0)
+			(at 26.67 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12761,7 +14152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 80.01 0)
+			(at 26.67 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12771,7 +14162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 76.2 0)
+			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +14173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 76.2 0)
+			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12793,7 +14184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 76.2 0)
+			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12804,7 +14195,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e47da86-9d21-4837-aa05-2eca90fcec91")
+			(uuid "4368af93-45a6-43c8-8db6-3af9accf8718")
 		)
 		(instances
 			(project "LiDAR Scanner"
@@ -12817,7 +14208,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 50.8 270)
+		(at 45.72 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12826,8 +14217,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d671e5a2-aa58-423b-983e-0e8d7432f99a")
-		(property "Reference" "C3"
-			(at 30.48 46.228 90)
+		(property "Reference" "C10"
+			(at 49.276 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12836,8 +14227,8 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 30.48 48.006 90)
+		(property "Value" "0.1uF"
+			(at 50.038 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12846,8 +14237,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 30.48 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12858,7 +14249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 50.8 0)
+			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12869,7 +14260,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 30.48 50.8 0)
+			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12888,7 +14279,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12905,7 +14296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d74160fb-88b7-4334-81dd-31ae56e34f87")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 40.132 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,7 +14318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12969,7 +14360,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13006,7 +14397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13062,7 +14453,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 234.95 139.7 0)
+		(at 219.71 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13073,7 +14464,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2f45725-81e6-4399-9c19-ad5f624511cb")
 		(property "Reference" "J6"
-			(at 236.22 128.27 0)
+			(at 220.98 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13083,7 +14474,7 @@
 			)
 		)
 		(property "Value" "GENERAL DEBUG"
-			(at 236.22 130.81 0)
+			(at 220.98 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13092,8 +14483,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.95 139.7 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13104,7 +14495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 139.7 0)
+			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13115,7 +14506,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 139.7 0)
+			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13271,7 +14662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea227324-0e71-41e1-b7b0-4cc734e7db9d")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 250.698 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13293,7 +14684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 257.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13335,7 +14726,7 @@
 		(instances
 			(project "LiDAR Scanner"
 				(path "/acc99cc0-f792-4cd3-87b3-8219acf4ee35"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13372,7 +14763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.34 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13606,7 +14997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 111.76 114.3 0)
 			(hide yes)
 			(show_name no)
