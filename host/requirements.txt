@@ -1,0 +1,12 @@
+# Host requirements for the Mini-LiDAR-Board orientation viewer.
+#
+# numpy and matplotlib are already present in the miniforge3 environment on
+# this machine.  pyserial is the ONLY new dependency and must be installed:
+#
+#     python3 -m pip install pyserial
+#
+# It is not needed for --sim mode, which runs with no hardware attached.
+
+pyserial>=3.5
+numpy>=1.24
+matplotlib>=3.7

@@ -1,0 +1,5 @@
+*.ply
+host/lidarvenv/
+__pycache__/
+host/lidarscan/__pycache__/
+host/reconstructed_room.obj
