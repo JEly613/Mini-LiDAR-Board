@@ -49,9 +49,9 @@ Designed in KiCad, fabricated and assembled, brought up and validated.
 
 ![Assembled PCB Back Side](photos/back.jpeg)
 
-![PCB Layout - Traces](photos/traces.jpg)
+![PCB Layout - Traces](photos/full%20traces.jpg)
 
-![PCB Layout - Full Stackup](photos/full%20stackup.jpg)
+![PCB Layout - Full Stackup](photos/finished%20board.jpg)
 
 A few decisions worth calling out, because they shaped the firmware:
 
