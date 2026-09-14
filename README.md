@@ -8,24 +8,13 @@ time — hardware, firmware, and host software all in this repository.
 
 ---
 
-## What it does
+## Operation Principle
 
 The board spins a LiDAR module that measures distances in a 2D plane. On its
 own that only ever produces a flat ring. The on-board IMU tracks how the board
 is *oriented*, so every distance reading can be rotated out of the sensor's 2D
 plane and into a fixed world frame. Tilt and sweep the unit by hand and the
 flat rings stack into a 3D point cloud of the room.
-
-```
- IMU  ──SPI+DMA──▶  Madgwick filter  ──▶  quaternion  ─┐
-                                                       ├──▶  USB CDC  ──▶  host  ──▶  3D point cloud
- LiDAR ──UART+DMA──▶  node parser  ──▶  one revolution ─┘
-```
-
-Three things had to work together: a board clean enough to run a 96 MHz MCU and
-USB next to a sensitive MEMS sensor, firmware fast enough to service a 1 kHz IMU
-and a continuous LiDAR stream at once, and host software that gets the coordinate
-frames right.
 
 ---
 
