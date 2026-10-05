@@ -1,8 +1,6 @@
 # Mini-LiDAR-Board
 
-A handheld 3D LiDAR scanner built on a custom 4-layer PCB. An STM32F411 fuses
-an on-board IMU with an RPLIDAR A1 to reconstruct the room around it in real
-time — hardware, firmware, and host software all in this repository.
+This project fuses data from LiDAR and IMU measurements to reconstruct internal scans of a room. The LiDAR module is mounted on a custom 4-layer PCB that hosts an STM32 microcontroller and an ICM-42688-P IMU. The data from both sensors is collected by the microcontroller and sent via a custom USB protocol to the host software, where the room is reconstructed.
 
 ![The Completed Device](photos/full%20lidar.jpeg)
 
@@ -10,28 +8,22 @@ time — hardware, firmware, and host software all in this repository.
 
 ## Operation Principle
 
-The board spins a LiDAR module that measures distances in a 2D plane. On its
-own that only ever produces a flat ring. The on-board IMU tracks how the board
-is *oriented*, so every distance reading can be rotated out of the sensor's 2D
-plane and into a fixed world frame. Tilt and sweep the unit by hand and the
-flat rings stack into a 3D point cloud of the room.
+The board spins a LiDAR module that measures distances in a 2D plane. On its own that only ever produces a flat ring. The on-board IMU tracks how the boardis oriented, so every distance reading can be rotated out of the sensor's 2D plane and into a 3D environment. Tilting the sensor so that all 360 degrees of freedom are covered constructs a full scan of the room.
 
 ---
 
 ## Hardware
 
-Designed in KiCad, fabricated and assembled, brought up and validated.
+Designed using KiCad.
 
 | | |
 |---|---|
 | **Board** | 4-layer, 82 × 82 mm, 49 components, 212 vias |
 | **Stackup** | `F.Cu` signal · `In1.Cu` GND plane · `In2.Cu` VDD plane · `B.Cu` signal |
-| **Design rules** | 0.15 mm clearance, 0.45 mm via / 0.2 mm drill |
 | **MCU** | STM32F411CEU6 — QFN-48, 7 × 7 mm, 0.5 mm pitch, 96 MHz |
 | **IMU** | TDK ICM-42688-P — LGA-14, 2.5 × 3 mm, on SPI1 |
-| **LiDAR** | Slamtec RPLIDAR A1 — UART @ 115200, PWM-driven spindle |
+| **LiDAR** | Slamtec RPLIDAR A1, PWM-driven spindle |
 | **Power** | USB-C in, AP2112K-3.3 LDO, 5 V and 3.3 V rails |
-| **Protection** | USBLC6-2SC6 TVS array, ESD diodes, resettable polyfuse |
 | **Clock** | 8 MHz ABM3B crystal → 96 MHz core + exact 48 MHz USB |
 
 ![Assembled PCB Front Side](photos/front.jpeg)
@@ -42,35 +34,26 @@ Designed in KiCad, fabricated and assembled, brought up and validated.
 
 ![PCB Layout - Full Stackup](photos/finished%20board.jpg)
 
-A few decisions worth calling out, because they shaped the firmware:
+A few notable design decisions:
 
-- **The IMU is mounted on the bottom copper**, rotated −90°. That is why the
-  board reads roll ≈ −180° lying flat, and why the host applies a fixed
-  sensor-to-body rotation.
-- **There are no GPIO-controlled LEDs.** D3 is hardwired across the 3.3 V rail
-  and the MCU cannot touch it. All status therefore travels over the USB link
-  or out the three debug pins on header J4 — there is no blink code anywhere.
-- **The LiDAR motor supply is permanently on** through ferrite bead FB2, with no
-  enable GPIO, so PWM duty is the only spindle control available.
-- **PA9 carries the LiDAR UART**, not USB VBUS sense. The firmware must set
-  `GCCFG.NOVBUSSENS` or the device never enumerates.
+- **The IMU is mounted on the bottom copper**, rotated −90 degrees. I was worried about the brushed motor on the LiDAR creating noise that would interfere with the IMU, so I shielded it with a few layers of copper. I probably didn't need to but wanted to be safe.
+- **The LiDAR motor supply is permanently on** through ferrite bead FB2, with no enable pin. The motor is only driven by the PWM signal, which sometimes causes issues with startup. Next revision I'll add a motor enable.
+- **PA9 carries the LiDAR UART**, which means that the MCU can only be flashed through the SWD header.
 
-Gerbers, drill files, and the pick-and-place package are in
+Gerbers are in:
 [`production/`](production/).
 
 ---
 
 ## Firmware
 
-Register-level bare-metal C. No vendor HAL, no RTOS, no CubeMX — 5,139 lines
-across 16 files compiling to a **12 KB flash image**.
+Register-level bare-metal C with a **12 KB flash image**.
 
 - 96 MHz core from the 8 MHz crystal, with the exact 48 MHz PLLQ that USB needs
 - ICM-42688-P at 1 kHz over SPI1 with DMA, triggered by its data-ready interrupt
 - 6-DOF Madgwick fusion at the full sample rate, with startup gyro-bias calibration
 - RPLIDAR A1 `SCAN` decoding off USART1 with circular DMA and byte-level resync
 - TIM2_CH3 PWM spindle control
-- A USB CDC-ACM device stack written directly against the OTG_FS registers
 - CRC-16 framed binary protocol, hardware watchdog, and independent stall
   detection for the IMU, the LiDAR link, and the spindle
 
@@ -175,7 +158,3 @@ Known limits, all understood rather than mysterious:
   Z-flip is handled, via the stated sensor-to-body convention.
 
 ---
-
-## License
-
-Not yet specified.
