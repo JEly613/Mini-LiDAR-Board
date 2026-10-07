@@ -47,6 +47,8 @@ Gerbers are in:
 
 ## Firmware
 
+NOTE: Designed, tested, and validated by me. Implemented with the help of Claude Code.
+
 Register-level bare-metal C with a **12 KB flash image**.
 
 - 96 MHz core from the 8 MHz crystal, with the exact 48 MHz PLLQ that USB needs
@@ -74,6 +76,8 @@ make flash      # writes it over SWD
 ---
 
 ## Host software
+
+NOTE: Designed, tested, and validated by me. Implemented with the help of Claude Code.
 
 Python 3 with NumPy and matplotlib. Reads the USB CDC stream, parses the binary
 protocol, and renders three views.

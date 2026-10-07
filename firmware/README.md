@@ -1,3 +1,5 @@
+NOTE: Designed, tested, and validated by me. Implemented with the help of Claude Code.
+
 # Mini-LiDAR-Board firmware — IMU orientation + LiDAR rings
 
 Register-level bare-metal C for the STM32F411CEU6 on the custom Mini-LiDAR

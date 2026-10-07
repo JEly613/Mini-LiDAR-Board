@@ -1,3 +1,5 @@
+NOTE: Designed, tested, and validated by me. Implemented with the help of Claude Code.
+
 # Mini-LiDAR-Board host viewer
 
 Live 3D orientation display for the custom Mini-LiDAR scanner board. It opens
