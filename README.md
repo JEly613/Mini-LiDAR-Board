@@ -30,6 +30,8 @@ Designed using KiCad.
 
 ![Assembled PCB Back Side](photos/back.jpeg)
 
+![PCB Schematic](photos/schematic.png)
+
 ![PCB Layout - Traces](photos/full%20traces.png)
 
 ![PCB Layout - Full Stackup](photos/finished%20board.png)
